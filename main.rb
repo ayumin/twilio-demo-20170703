@@ -27,7 +27,7 @@ class MainApp < Sinatra::Base
 
     Twilio::TwiML::Response.new do |r|
       conn = Faraday.new(:url => @rootPath) do |faraday|
-        faraday.request :url_encode
+        faraday.request :url_encoded
         faraday.respose :logger
         faraday.adapter Faraday.default_adapter
       end
