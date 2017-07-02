@@ -22,7 +22,7 @@ class MainApp < Sinatra::Base
   end
 
   post '/postsms/:fromNumber' do
-    contect_type 'text/xml'
+    content_type 'text/xml'
     fromNumber = params[:fromNumber]
 
     Twilio::TwiML::Response.new do |r|
