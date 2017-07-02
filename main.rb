@@ -17,7 +17,7 @@ class MainApp < Sinatra::Base
     Twilio::TwiML::Response.new do |r|
       r.Say "Twilioのサンプル。SMSメッセージをおくります。"
       r.Pause
-      r.Redirect "#{rootPath}/postmsm/#{fromNumber}", method: 'post'
+      r.Redirect "#{@rootPath}/postmsm/#{fromNumber}", method: 'post'
     end.text
   end
 
