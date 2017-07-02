@@ -1,0 +1,35 @@
+{
+  "name": "twilio-demo-20170703",
+  "scripts": {
+  },
+  "env": {
+    "HEROKU_APP_NAME": {
+      "required": true
+    },
+    "LANG": {
+      "required": true
+    },
+    "RACK_ENV": {
+      "required": true
+    },
+    "TWILIO_ACCOUNT_SID": {
+      "required": true
+    },
+    "TWILIO_AUTH_TOKEN": {
+      "required": true
+    },
+    "TWILIO_PHONE": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/ruby"
+    }
+  ]
+}
