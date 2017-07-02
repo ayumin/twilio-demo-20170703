@@ -7,10 +7,12 @@
       "required": true
     },
     "LANG": {
-      "required": true
+      "required": true,
+      "value": "en_US.UTF-8"
     },
     "RACK_ENV": {
-      "required": true
+      "required": true,
+      "value": "production"
     },
     "TWILIO_ACCOUNT_SID": {
       "required": true
