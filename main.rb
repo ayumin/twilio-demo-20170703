@@ -55,7 +55,7 @@ class MainApp < Sinatra::Base
       client.account.messages.create(
         :from => from,
         :to   => postPhoneNumber,
-        :body => "SMSメッセージを送信しました"
+        :body => "HerokuアプリからSMSメッセージを送信しました。"
       )
     end
   end
