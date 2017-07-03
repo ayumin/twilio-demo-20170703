@@ -1,5 +1,8 @@
 {
-  "name": "twilio-demo-20170703",
+  "name": "Twilio Sample on Heroku",
+  "description": "Sending SMS message sample powered by Twilio",
+  "repository": "https://github.com/ayumin/twilio-demo-20170703",
+  "keywords": ["ruby", "twilio"],
   "scripts": {
   },
   "env": {
